@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,700;1,500&display=swap');
+
+
+
+body{
+    font-family: "nunito" !important; 
+    font-size: 15px;
+}
+/* nav bar */
+li{
+    margin-left: 1%;
+}
+a{
+    color: rgb(15, 15, 219) !important;
+    font-weight: bolder;
+    text-align: right;
+}
+.btn{
+    margin-right: 10%;
+    background-color: rgba(58, 44, 250, 0.733);
+    color: white;
+}
+.navbar-brand{
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.text{
+    color: rgb(9, 9, 99) !important;
+}
+/* navbar */
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(9, 9, 134);
+}
+.bg{
+    background-color: honeydew;
+}
+.blue{
+    color: rgb(9, 9, 134) !important;
+}
+i{
+    margin-left: -10%;
+    padding: 4%;
+}
+.border{
+    border-top: 0ch !important;
+    border-left: 0ch !important;
+    border-right: 0ch !important;
+    border-color: blue !important;
+    border-width: 2px !important;
+}
+.ma{
+    padding-left: 6% !important;
+}
+.level{
+    margin: 10%;
+    margin-right: 3%;
+    margin-top: -10%;
+    width: 30%;
+    padding-left: -10%;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn4,
+.btn5,
+.btn6{
+    text-decoration: none;
+}
+.card:hover btn1{
+    color: white !important;
+}
+.c1:hover{
+    background-color: skyblue;
+    color: white  !important;
+}
+.c2:hover{
+    background-color: orange;
+    color: white  !important;
+}
+.c3:hover{
+    background-color: limegreen;
+    color: white  !important;
+}
+.c4:hover{
+    background-color: red;
+    color: white  !important;
+}
+.c5:hover{
+    background-color: rgb(194, 9, 194);
+    color: white  !important;
+}
+.c6:hover{
+    background-color: hotpink;
+    color: white  !important;
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+.btn:hover{
+    background-color: rgb(86, 58, 245) !important;
+    color: white !important;
+}
+#owl-demo .item{
+    margin: 3px;
+}
+#owl-demo{
+    display: flex;
+}
+.item img{
+    width: 100%;
+    height: auto;
+}
+.button{
+    color: rgb(67, 64, 243);
+    border: none;
+    background-color: white;
+    text-align: left;
+}
+.we-50{
+    width: 47%;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feat:hover i{
+    background-color: blue;
+    color: white;
+}
+.home{
+    background-image: url(../images/hero-bg.png);
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}

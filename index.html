@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexStart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ee3dbd9d8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text" href="#"><i class="fa fa-bars text-black"></i> FlexStart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactsec">Contact</a>
+              </li>
+            </ul>
+           <button class="btn">Get started</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- home section -->
+      <section class="home  p-5">
+        <div class="container">
+          <div class="wrapper m-5 ms-3 me-5 d-flex">
+            <div class="flex-grow-2 mt-5 mb-3 ">
+              <p>
+                <h1 class="heading fs-1">We offer modern <br>solutions for  growing your business</h1>
+                <h5>We are team of talented designers making website with bootstrap</h5>
+                <button class="btn mt-4 py-2 px-5">Get started <i class="fa fa-arrow-right-long ma"></i></button>
+              </p>
+            </div>
+            <div class="flex-grow-1 me-2">
+              <img src="images/hero-img.png" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      
+      <section id="about" class="container p-5 mt-5">
+        <div class="wrapper mt-5 pt-5 d-flex">
+          <div class="w-75 p-1 bg mt-5 mb-5">
+            <p class="p-2 ms-3 mt-2">
+              <h6 class="mt-0 mb-4 ms-3 me-3 text-primary">WHO WE ARE</h6>
+              <h5 class=" heading ms-3 me-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sapiente quam omnis laboriosam illum.</h5>
+              <h6 class="fs-6 me-3 ms-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum quam rem, magni dolores saepe aliquam a tempore odit veritatis minima labore repudiandae eligendi accusamus ex iure provident accusantium? Nemo.
+              </h6>
+              <button class="btn ms-3 mt-4 py-2 px-5 ">Get started <i class="fa fa-arrow-right-long ma"></i></button>
+            </p>
+          </div>
+          <div class="w-100  pt-2">
+            <img src="images/about.jpg" class="w-100" alt="" srcset="">
+          </div>
+        </div>
+        <!-- title -->
+        <p class="p-5"></p>
+        <h6 class="text-primary text-center mt-5 ">Our values</h6>
+        <h3 class=" text-center heading fs-1 fw-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+        <!-- tetle end -->
+        <!-- cards  -->
+        <div class="wrapper d-flex container text-center m-5">
+          <div class="cards shadow m-3 p-5 " style="width: 18rem;">
+            <img src="images/values-1.png" alt="values" style="width: 10rem;" class="text-center">
+            <div class="card-body">
+              <h6 class="heading fs-6 text-center">Lorem ipsum dolor sit amet.</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, debitis.</p>
+            </div>
+          </div>
+          <div class="cards shadow m-3 p-5 " style="width: 18rem;">
+            <img src="images/values-2.png" alt="values" style="width: 10rem;">
+            <div class="card-body">
+              <h6 class="heading fs-6 text-center">Lorem ipsum dolor sit amet.</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, debitis.</p>
+            </div>
+          </div>
+          <div class="cards shadow m-3 p-5" style="width: 18rem;">
+            <img src="images/values-3.png" alt="values" style="width: 10rem;">
+            <div class="card-body">
+              <h6 class="heading fs-6 text-center">Lorem ipsum dolor sit amet.</h6>
+              <p class="card-text text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, debitis.</p>
+            </div>
+          </div>
+        </div>
+        <!-- cards end -->
+        <!-- mini cards -->
+        <div class=" d-flex container m-3">
+          <div class="row">
+            <div class="col-3">
+              <div class="cards shadow p-3 m-1 ps-3 d-flex">
+                <div class="left mt-4 ms-0"><i class="fa fa-smile fs-2"></i></div>
+                <div class="right">
+                  <p class="blue fs-4  fw-bolder ms-4 mb-0 me-0">232</p>
+                  <p class="ms-3 fs-6 mt-0 me-0 blue">Happy Clients</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="cards shadow p-4 m-1 ps-3 d-flex">
+                <div class="left mt-4 ms-0"><i class="fa fa-smile fs-2"></i></div>
+                <div class="right">
+                  <p class="blue fs-4 fw-bolder ms-4 mb-0 me-0">521</p>
+                  <p class="ms-3 fs-6 mt-0 me-0 blue">Projects</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="cards shadow p-3 m-1 ps-3 d-flex">
+                <div class="left mt-4 ms-0"><i class="fa fa-smile fs-2"></i></div>
+                <div class="right">
+                  <p class="blue fs-4 fw-bolder ms-4 mb-0 me-0">1463</p>
+                  <p class="ms-3 fs-6 mt-0 me-0 blue">Hours of support</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="count-box shadow p-3 m-1 ps-3 d-flex">
+                <div class="left mt-4 ms-0"><i class="fa fa-smile fs-2"></i></div>
+                <div class="right">
+                  <p class="blue fs-4 fw-bolder ms-4 mb-0 me-0">15</p>
+                  <p class="ms-3 fs-6 mt-0 me-0 blue">Hard Workers</p>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <!-- mini cards end -->
+        <!-- title -->
+        <p class="p-5"></p>
+        <h6 class="text-primary text-center mt-5 ">Features</h6>
+        <h3 class=" text-center heading fs-1 fw-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+        <!-- title end -->
+        <!-- features1 -->
+        <div class="wrapper mt-5 pt-5 d-flex">
+          <div class="container pt-2">
+            <div class="row">
+              <img src="images/features.png" class="w-100"  alt="features" srcset="">
+            </div>
+          </div>
+          <div class="w-100 mt-5 me-0">
+            <div class="d-flex">
+              <div class="row">
+                <div class="cards w-75 feat shadow m-1 ms-3">
+                  <div class=" p-3"><i class="fa fa-check bg"></i>  Lorem ipsum dolor</div>
+                </div>
+                <div class="cards w-75 feat  shadow m-1 ms-3">
+                  <div class=" p-3"> <i class="fa fa-check bg"></i> Lorem ipsum dolor</div>
+                </div>
+                <div class="cards w-75 feat shadow m-2 ms-3">
+                  <div class=" p-3"> <i class="fa fa-check bg"></i> Lorem ipsum dolor</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cards w-75 feat  shadow m-2 ms-1">
+                  <div class=" p-3 "> <i class="fa fa-check bg"></i> Lorem ipsum dolor</div>
+                </div>
+                <div class="cards w-75 feat  shadow m-1 ms-1">
+                  <div class=" p-3"> <i class="fa fa-check bg"></i> Lorem ipsum dolor</div>
+                </div>
+                <div class="cards w-75 feat  shadow m-1 ms-1">
+                  <div class=" p-3"> <i class="fa fa-check bg"></i> Lorem ipsum dolor</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- features 2 -->
+        
+        <div class="wrapper mt-5 pt-5 d-flex">
+          <div class="w-75 p-1">
+            <p class="heading fs-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam excepturi non illum!</p>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Lorem, ipsum.</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Lorem, ipsum.</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Lorem, ipsum.</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorum fugit omnis, impedit ipsa aperiam laboriosam similique nostrum placeat. Nemo officiis
+                  <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quo impedit facilis, cumque iure accusantium magnam quam laudantium aliquid!
+                  <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fuga quaerat est dicta ab. Voluptatum fuga aliquam debitis obcaecati illum!
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorum fugit omnis, impedit ipsa aperiam laboriosam similique nostrum placeat. Nemo officiis
+                  <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quo impedit facilis, cumque iure accusantium magnam quam laudantium aliquid!
+                 <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fuga quaerat est dicta ab. Voluptatum fuga aliquam debitis obcaecati illum!
+                </p>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorum fugit omnis, impedit ipsa aperiam laboriosam similique nostrum placeat. Nemo officiis
+                  <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque quo impedit facilis, cumque iure accusantium magnam quam laudantium aliquid!
+                <h3 class="heading fs-6"> <i class="fa fa-check ms-1"></i> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias fuga quaerat est dicta ab. Voluptatum fuga aliquam debitis obcaecati illum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 mt-3 pt-2">
+            <img src="images/features-2.png" class="w-100" alt="" srcset="">
+          </div>          
+        </div>
+        <!-- features 3 -->
+        <h3 class=" text-center heading fs-1 fw-bold mt-5">Lorem ipsum dolor sit amet consectetur.</h3>
+        <div class="wrapper mt-5 pt-5 d-flex">
+          <div class="container pt-2">
+            <div class="row">
+              <img src="images/features-3.png" class="w-75"  alt="features" srcset="">
+            </div>
+          </div>
+          <div class="w-100 mt-5 me-0">
+            <div class="d-flex">
+              <div class="row">
+                <div class="cards w-100 level shadow ms-0">
+                  <div class=" p-3"> 
+                    <p> <i class="fa fa-check bg"></i>  <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+                <div class="cards w-100 level shadow ms-0">
+                  <div class=" p-3">  
+                    <p> <i class="fa fa-check bg"></i> <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+                <div class="cards w-100 level shadow ms-0">
+                  <div class=" p-3">  
+                    <p> <i class="fa fa-check bg"></i> <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="cards w-100 level shadow ms-1">
+                  <div class=" p-3 ">
+                    <p>  <i class="fa fa-check bg"></i> <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+                <div class="cards w-100 level shadow ms-1">
+                  <div class=" p-3">  
+                    <p> <i class="fa fa-check bg"></i> <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+                <div class="cards w-100 level shadow  ms-1">
+                  <div class=" p-3">  
+                    <p> <i class="fa fa-check bg"></i> <h4 class="heading fs-6">Lorem ipsum dolor</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fuga.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about section end -->
+      <section class="container">
+        <!-- title -->
+        <p class="p-5" id="services"></p>
+        <h6 class="text-primary text-center mt-5 ">Services</h6>
+        <h3 class=" text-center heading fs-1 fw-bold">Lorem ipsum dolor sit amet consectetur.</h3>
+        <!-- title end -->
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="card c1" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: skyblue;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn1" style="color: skyblue !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card c2" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: orange;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn2" style="color: orange !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card c3" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: limegreen;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn3" style="color: limegreen !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-5 mb-5">
+            <div class="card c4" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: red;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn4" style="color: red !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-5 mb-5">
+            <div class="card c5" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: rgb(194, 9, 194);">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn5" style="color: rgb(194, 9, 194) !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mt-5 mb-5">
+            <div class="card c6" style="border-top: 0px; border-left: 0px; border-right:0px; border-width: 4px; border-color: hotpink;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Lorem, ipsum.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci sapiente commodi? Corrupti officiis error, praesentium sunt earum nisi explicabo?</p>
+                <a href="#" class="btn6" style="color: hotpink !important;">Read More <i class="fa fa-arrow-right p-1 ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- price plans -->
+        <h6 class="text-primary text-center mt-5 ">Pricing</h6>
+        <h3 class=" text-center heading fs-1 mb-5 fw-bold">Check our pricing</h3>
+        <div class="container mt-2 d-flex">
+          <div class="cards shadow m-3 w-25">
+            <div class="content text-center p-3">
+              <h3 class="fw-bold" style="color: skyblue;">Free</h3>
+              <p><sup class="fw-bolder">$</sup> <span class="fw-bolder fs-1">0</span> /mo</p>
+              <p><img src="images/pricing-free.png" class="w-75" alt=""></p>
+              <p>Lorem, ipsum.</p>
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum dolor.</p>
+              <button class="btn bg-light text-primary px-5 border-primary rounded-pill">Buy now</button>
+            </div>
+          </div>
+          <div class="cards shadow m-3 w-25">
+            <div class="content text-center p-3">
+              <h3 class="fw-bold" style="color: limegreen;">Starter Plan</h3>
+              <p><sup class="fw-bolder">$</sup> <span class="fw-bolder fs-1">19</span> /mo</p>
+              <p><img src="images/pricing-starter.png" class="w-75" alt=""></p>
+              <p>Lorem, ipsum.</p>
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum dolor.</p>
+              <button class="btn bg-light text-primary px-5 border-primary rounded-pill">Buy now</button>
+            </div>
+          </div>
+          <div class="cards shadow m-3 w-25">
+            <div class="content text-center p-3">
+              <h3 class="fw-bold" style="color: orange;">Business Plan</h3>
+              <p><sup class="fw-bolder">$</sup> <span class="fw-bolder fs-1">29</span> /mo</p>
+              <p><img src="images/pricing-business.png" class="w-75" alt=""></p>
+              <p>Lorem, ipsum.</p>
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum dolor.</p>
+              <button class="btn bg-light text-primary px-5 border-primary rounded-pill">Buy now</button>
+            </div>
+          </div>
+          <div class="cards shadow m-3 w-25">
+            <div class="content text-center p-3">
+              <h3 class="fw-bold" style="color: rgb(245, 72, 159);">Ultimate Plan</h3>
+              <p><sup class="fw-bolder">$</sup> <span class="fw-bolder fs-1">49</span> /mo</p>
+              <p><img src="images/pricing-ultimate.png" class="w-75" alt=""></p>
+              <p>Lorem, ipsum.</p>
+              <p>Lorem, ipsum dolor.</p>
+              <p>Lorem ipsum dolor sit.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum.</p>
+              <p style="text-decoration: line-through;">Lorem, ipsum dolor.</p>
+              <button class="btn bg-light text-primary px-5 border-primary rounded-pill">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <!-- faq -->
+        <h6 class="text-primary text-center mt-5 ">F.A.Q</h6>
+        <h3 class=" text-center heading fs-1 mb-5 fw-bold">Frequently Asked Questions</h3>
+        <div class="container d-flex">
+          <div class="col-6">
+            <div class="accordion accordion-flush p-1" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci sunt odit obcaecati, et quibusdam dolores itaque aperiam ut soluta perspiciatis error quisquam unde distinctio quaerat facere. Possimus, vero vel.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci sunt odit obcaecati, et quibusdam dolores itaque aperiam ut soluta perspiciatis error quisquam unde distinctio quaerat facere. Possimus, vero vel.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci sunt odit obcaecati, et quibusdam dolores itaque aperiam ut soluta perspiciatis error quisquam unde distinctio quaerat facere. Possimus, vero vel. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6"> 
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header p-1" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci sunt odit obcaecati, et quibusdam dolores itaque aperiam ut soluta perspiciatis error quisquam unde distinctio quaerat facere. Possimus, vero vel.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci sunt odit obcaecati, et quibusdam dolores itaque aperiam ut soluta perspiciatis error quisquam unde distinctio quaerat facere. Possimus, vero vel.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span class="fw-bolder">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                  </button>
+                </h2>
+                <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- title -->
+       
+       <p class="p-5" id="services"></p>
+       <i id="team"></i>
+       <h6 class="text-primary text-center mt-5 ">Team</h6>
+       <h3 class=" text-center heading fs-1 fw-bold">Our hardworing team</h3>
+       <!-- title end -->
+       <section class="container">
+          <div class="d-flex text-center">
+            <div class="card m-3" style="width: 15rem;">
+              <img src="images/1.jpg" class="card-img-top" style="width: 100%;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Sharah Johanson</h5>
+                <h6 class="card-subtitle fst-italic text-secondary fw-light">Chief Executive Officer</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+              </div>
+            </div>
+            <div class="card m-3" style="width: 15rem;">
+              <img src="images/2.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Walter White</h5>
+                <h6 class="card-subtitle fst-italic text-secondary fw-light">Product Manager</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 15rem;">
+              <img src="images/3.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Amanda Jepson</h5>
+                <h6 class="card-subtitle fst-italic text-secondary fw-light">Accountant</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card m-3" style="width: 15rem;">
+              <img src="images/4.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">William Anderson</h5>
+                <h6 class="card-subtitle fst-italic text-secondary fw-light">CTO</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <h6 class="text-primary text-center mt-5 ">OurClients</h6>
+          <h3 class=" text-center heading fs-1 fw-bold">Lorem, ipsum dolor.</h3>
+          <div id="owl-demo">
+          
+            <div class="item"><img src="About Clients/1.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/2.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/3.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/4.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/5.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/6.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/7.png" alt="Owl Image"></div>
+            <div class="item"><img src="About Clients/8.png" alt="Owl Image"></div>
+           
+          </div>
+       </section>
+       <!-- blog section -->
+       <!-- title -->
+       
+       <p class="p-5" id="services"></p>
+       <i id="blog"></i>
+       <h6 class="text-primary text-center mt-5 ">BLOG</h6>
+       <h3 class=" text-center heading fs-1 fw-bold">Recent Posts Form Our Blog</h3>
+       <!-- title end -->
+       <section class="container mb-5 d-flex">
+         <div class="col-4">
+            <div class="card" style="width: 18rem;">
+              <img src="images/blog-1.jpg" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <p>Tue, September 15</p>
+                <a class="card-text heading fs-6 text-decoration-none">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+              </div>
+              <button class="button ms-1">Read more <i class="fa fa-arrow-right ms-1"></i></button>
+            </div>
+         </div>
+         <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/blog-2.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body">
+              <p>Fri, August 28</p>
+              <a class="card-text heading fs-6 text-decoration-none">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+            </div>
+            <button class="button ms-1">Read more <i class="fa fa-arrow-right ms-1"></i></button>
+          </div>
+         </div>
+         <div class="col-4">
+          <div class="card" style="width: 18rem;">
+            <img src="images/blog-3.jpg" class="card-img-top w-100" alt="...">
+            <div class="card-body">
+              <p>Mon, July 11</p>
+              <a class="card-text heading fs-6 text-decoration-none">Some quick example text to build on the card title and make up the bulk of the card's content.</a>
+            </div>
+            <button class="button ms-1">Read more <i class="fa fa-arrow-right ms-1"></i></button>
+          </div>
+         </div>
+       </section>
+       <!-- conatct -->
+       <i id="contactsec"></i>
+       <p class="p-5" id="services"></p>
+       <h6 class="text-primary text-center mt-5 ">Contact</h6>
+       <h3 class=" text-center heading fs-1 fw-bold">Contact Us</h3>
+       <section class="container d-flex">
+          <div class="col-6 d-flex flex-wrap me-0">
+            <div class="col-4 m-3 bg">
+              <p class="p-3">
+                <i class="fa-solid fa-location-dot text-center fs-3 ms-5 text-primary"></i><br>
+                <span class="fw-bolder fs-5">Address</span> <br>
+                A108 Adam Street, <br>
+                New York, NY 535022
+              </p>
+            </div>
+            <div class="col-4 m-3 bg">
+              <p class="p-3">
+                <i class="fa-solid fa-phone text-center fs-3 ms-5 text-primary"></i><br>
+                <span class="fw-bolder fs-5">Call us</span> <br>
+                +1 5589 55488 55<br>
+                +1 9988 76767 88
+              </p>
+            </div>
+            <div class="col-4 m-3 bg">
+              <p class="p-3">
+                <i class="fa-solid fa-envelope text-center fs-3 ms-5 text-primary"></i><br>
+                <span class="fw-bolder fs-5">Eamil us</span> <br>
+                info@example.com<br>
+                contact@example.com
+              </p>
+            </div>
+            <div class="col-4 m-3 bg">
+              <p class="p-3">
+                <i class="fa-solid fa-clock text-center fs-3 ms-5 text-primary"></i><br>
+                <span class="fw-bolder fs-5">Open hours</span> <br>
+                Monday-Friday <br> 
+                09:00AM - 05:00PM
+              </p>
+            </div>
+          </div>
+          <div class="col-6 ms-0 bg">
+              <form action="" class="p-2">
+                <input type="text" class="we-50 mt-4 p-1" placeholder="Your Name">
+                <input type="email" class="we-50 mt-4 p-1" placeholder="Your Email">
+                <input type="text" class="w-100 mt-4 p-1" placeholder="Subject">
+                <textarea name="" class="w-100 mt-4 p-1" id="" rows="4"></textarea>
+                <div class="text-center"><input type="button" class="btn  mt-4" value="Send Message"></div>
+              </form>
+          </div>
+       </section>
+       <footer>
+         <!-- newsletter -->
+         <div class="bg mt-3 pb-4">
+           <div class="container text-center mt-5">
+            <h3 class=" text-center  heading fs-2 fw-bold">Our Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <input type="email" class="w-50 p-1">
+            <button class="btn">Subscribe</button>
+           </div>
+         </div>
+         <!-- bottom footer -->
+         <div class="upper-footer">
+            <div class="container d-flex">
+              <div class="col-6 w-50">
+                <p>
+                  <i class="fa fa-bars ps-5 fw-bold fs-3 pe-0"></i><span class="fw-bold fs-3 text-primary">FlexStart</span> <br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam vero cumque fugiat neque, voluptas quae iusto, accusamus fuga distinctio atque hic quibusdam natus quod doloremque corporis excepturi iure perferendis? Deleniti. <br>
+                  <i class="fa fa-twitter pt-0 fs-2 text-secondary ms-3"></i><i class="fa fa-facebook-square text-secondary pt-0 p-5 fs-2"></i><i class="fa fa-instagram text-secondary pt-0 p-4 fs-2"></i><i class="fa-brands fa-linkedin text-secondary p-5 fs-2"></i>
+                </p>
+              </div>
+              <div class="col-6 mt-5">
+                <div class="d-flex">
+                  <div class="col-3 m-2">
+                    <h6 class="fw-bold">Useful links</h6>
+                    <p>
+                      <i class="fa fa-angle-right"></i> Home <br>
+                      <i class="fa fa-angle-right"></i> About us <br>
+                      <i class="fa fa-angle-right"></i> Services <br>
+                      <i class="fa fa-angle-right"></i> Terms of Service <br>
+                      <i class="fa fa-angle-right"></i> Privacy Policy <br>
+                    </p>
+                  </div>
+                  <div class="col-3 m-2">
+                      <h6 class="fw-bold">Our Services</h6>
+                        <p>
+                          <i class="fa fa-angle-right"></i> Web Design <br>
+                          <i class="fa fa-angle-right"></i> Web development <br>
+                          <i class="fa fa-angle-right"></i> Product management <br>
+                          <i class="fa fa-angle-right"></i> Marketing <br>
+                          <i class="fa fa-angle-right"></i> Graphic design
+                        </p>
+                  </div>
+                  <div class="col-4 m-2">
+                    <h6 class="fw-bold">Contact us</h6>
+                    <p> A108 Adam Street, <br>
+                      New York, NY 535022
+                    </p>
+                    <p class="mt-5">
+                      <span class="fw-bold text-lighter fs-6">Phone: </span> +1 2345 87488 83 <br>
+                      <span class="fw-bold fs-6">Email:</span> info@example.com
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+         </div>
+         <!-- lower footer -->
+        <div class="lower-footer bg mb-0 end-0">
+          <div class="container text-center"> 
+            <p class="mb-0 p-2">&copy; copyright Harish Pandey. All rights reserved. <br>
+              Designed by BootstrapMade
+            </p>
+          </div>
+        
+          </div>
+        </footer>
+       <!-- script -->
+       <script>
+         $(document).ready(function() {
+ 
+          $("#owl-demo").owlCarousel({
+
+              autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+              items : 4,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3]
+
+          });
+
+          })
+       </script>
+</body>
+</html>
