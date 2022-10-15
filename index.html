@@ -714,8 +714,33 @@
           </div>
         
           </div>
+          <!-- goto top arrow -->
+          <i class=" fa-solid fa-arrow-up bg-red-600 px-3 py-1 text-lg font-bold rounded-full fixed bottom-16 right-5" onclick="gototop()" id="upbutton"></i>
         </footer>
        <!-- script -->
+       <script>
+        var upbutton = document.getElementById('upbutton');
+        upbutton.style.display = 'none';
+        window.onscroll = function(){
+            scrollfunction();
+        }
+        function scrollfunction(){
+            if(window.scrollY > 200)
+            {
+                upbutton.style.display = 'block';
+
+            }
+            else
+            {
+                upbutton.style.display = 'none';
+            }
+        }
+
+        function gototop()
+        {
+            window.scrollTo({top:0, behavior:'smooth'});
+        }
+    </script>
        <script>
          $(document).ready(function() {
  
@@ -731,5 +756,7 @@
 
           })
        </script>
+
+       
 </body>
 </html>
